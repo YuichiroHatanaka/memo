@@ -7,6 +7,6 @@ void main()
     printf("1文字入力してください");
     c = getchar();  /* キーボードからの半角文字1つの入力を得て，char型を返す関数．scanfの代わり */
 
-    printf("文字は %c です．¥n", c);  
-    printf("文字コードは %d です．¥n", c);
+    printf("文字は %c です。\n", c);  
+    printf("文字コードは %d です。\n", c);
 }
