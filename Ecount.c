@@ -10,8 +10,13 @@ FILE *lf;
 int main(void){
   fopen("test.txt","r");
   while((c=fgetc(lf))!=EOF){
-    count[c-65];
+    for(i = 0;i < 26;i++){
+      if(c = 65 + i){
+        count[i] = count[i] + 1;
+      }
+    }
   }
-  for(
-  printf("%c はテキスト内に %d 個ある。",a ,x);
+  for(i = 0;i < 26;i++){
+    printf("%c はテキスト内に %d 個ある。", 65+i, count[i]);
+  }
 }
